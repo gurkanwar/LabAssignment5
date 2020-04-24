@@ -1,11 +1,11 @@
 .row-two {
     display: grid;
     grid-template-columns: 1fr 5fr 2fr;
-    background-color: #b4d496;
+    background-color: #ffffff;
     height: 100%;
 }
 
-.table-one {
+/* .table-one {
     width: 100%;
     border: 1px solid rgba(238, 65, 12, 0.884);
 }
@@ -19,4 +19,8 @@
 .add-button {
     font-size: bold;
 
+} */
+
+.pull-right {
+    float: right
 }
