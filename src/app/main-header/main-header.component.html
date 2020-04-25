@@ -1,11 +1,19 @@
-<div class="row-one">
-    <div class="container-padding">
-        r1c1
+<mat-toolbar color="accent" class="toolbar">
+    <div class="row-one">
+        <div class="container-padding">
+            <span>r1c1</span>
+        </div>
+        <div id='banner' class="container-padding">
+            <button (click)="navigateTo('')" class="nav-buttons" type="button" mat-raised-button color="primary">
+                Home
+            </button>
+            <button (click)="navigateTo('courses')" class="nav-buttons" type="button" mat-raised-button color="link">
+                Courses
+            </button>
+        </div>
+        <div class="container-padding">
+            <mat-icon class="example-icon" aria-hidden="false" aria-label="Example heart icon">favorite</mat-icon>
+        </div>
+
     </div>
-    <div id='banner' class="container-padding" (mouseenter)="showGreeting()" (mouseleave)="resetGreeting()"
-        class="container-padding">r1c2
-    </div>
-    <div class="container-padding">
-        r1c3
-    </div>
-</div>
+</mat-toolbar>
